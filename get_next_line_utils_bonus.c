@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: davda-si <davda-si@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/17 17:20:05 by davda-si          #+#    #+#             */
-/*   Updated: 2023/08/24 16:05:00 by davda-si         ###   ########.fr       */
+/*   Created: 2023/08/24 13:58:04 by davda-si          #+#    #+#             */
+/*   Updated: 2023/08/24 15:34:41 by davda-si         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 size_t	ft_strlen(const char *s)
 {
@@ -72,17 +72,3 @@ int	time_to_free(char *buff)
 	}
 	return (check);
 }
-
-/* int main()
-{
-	char	*s2 = "gojo\nsatoru";
-	int 	tf = time_to_free(s2);
-	printf("%d", tf);
-} */
-
-/* int main()
-{
-	char	*s1 = "ahahahfind\nmeee";
-	char 	*s3 = ft_strrchr(s1, '\n');
-	printf("%s", s3);
-} */
